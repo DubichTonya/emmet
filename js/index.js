@@ -10,9 +10,9 @@ $(document).ready(function () {
   $preloader.delay(1500).fadeOut('slow');
 
   //   // header
-  // var items = ['video/smoke.mp4', 'video/homepage_2.mp4'];
-  // var item = items[Math.floor(Math.random()*items.length)];
-  // document.querySelector('.header-video video').setAttribute('src', item);
+  var items = ['video/smoke.mp4', 'video/homepage_2.mp4'];
+  var item = items[Math.floor(Math.random()*items.length)];
+  document.querySelector('.header-video video').setAttribute('src', item);
 
   // modal window
 
